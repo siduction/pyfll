@@ -50,7 +50,6 @@ packages = """
     # gtk3-engines-xfce dead and gone from sid
 
     # Qt5 Packages
-    screengrab
     smplayer
     vokoscreen-ng
 """
