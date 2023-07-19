@@ -1,0 +1,17 @@
+desc = """
+    Basic networking support and utilities.
+"""
+
+packages = """
+    dnsutils
+    iproute2
+    iputils-ping
+    isc-dhcp-client
+    iw
+    iwd
+    libnss-mdns
+    libnss-myhostname
+    netbase
+    net-tools
+    wireless-tools
+"""

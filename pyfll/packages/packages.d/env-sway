@@ -1,0 +1,8 @@
+desc = """
+    Distro specific packages for sway.
+"""
+
+packages = """
+    network-manager
+    # ceni we have NM
+"""

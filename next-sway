@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# one will find a sample defaults.conf in ./pyfll
+[ -e /etc/pyfll/defaults.conf ] && source /etc/pyfll/defaults.conf
+
+options="--binary --debug --verbose --preserve"
+flavour=sway
+release=next
+arch=amd64
+
+time ./pyfll/fll ${options}  ${aptcache} -c ${confpath}${flavour}_${release}_${arch}.conf

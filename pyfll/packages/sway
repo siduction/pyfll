@@ -1,0 +1,25 @@
+desc = """
+    sway environment
+"""
+
+deps = """
+    blacklist
+
+    base-cli-debian
+    base-cli-distro
+
+    base-devel
+    base-filesystems
+    base-firmware-non-free
+    base-hwsupport
+    base-init
+    base-l10n
+    base-nox-networking
+    base-security
+
+    env-sway
+"""
+
+packages = """
+
+"""
