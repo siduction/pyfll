@@ -37,6 +37,7 @@ packages = """
        xfce4-panel-profiles
        xfce4-power-manager
        xfce4-screenshooter
+    # gtk3-engines-xfce dead and gone from sid
        xfce4-terminal
 
     # xfwm4-themes - dead and gone from sid
@@ -48,6 +49,9 @@ packages = """
     libreoffice
         libreoffice-gtk3
     # gtk3-engines-xfce dead and gone from sid
+
+    # screenshot tool as replacement for flameshot
+    shutter
 
     # Qt5 Packages
     # screengrab  we have flameshot
