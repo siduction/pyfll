@@ -11,4 +11,6 @@ packages = """
     jgmenu
     idesk
     tint2
+    # we need a pdf reader for the manual
+    evince
 """
