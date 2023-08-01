@@ -1,8 +1,0 @@
-desc = """
-    Blacklist some packages from installation on xfce
-"""
-packages = """
-    # flameshot is a qt application, we replace it in xfce with shutter,
-    # which has the same potential as flameshot
-    flameshot-
-"""

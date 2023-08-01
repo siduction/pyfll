@@ -14,9 +14,6 @@ packages = """
     pavucontrol
     pasystray
     spacefm-gtk3
-    xfce4-clipman
-    xfce4-clipman-plugin
-    #iwd #not needed, sourced from base-networking
     network-manager
     jgmenu
     idesk
@@ -24,7 +21,8 @@ packages = """
     termit
     gsimplecal
     xfce4-appfinder
-    #featherpad
-    #featherpad-l10n
     evince
+    mirage
+    diodon
+    l3afpad
 """

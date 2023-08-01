@@ -70,7 +70,8 @@ packages = """
     nomacs
     qbittorrent
     partitionmanager
-    screengrab
+    # screengrab we use flameshot
+    flameshot
     xscreensaver
     vokoscreen-ng
 
