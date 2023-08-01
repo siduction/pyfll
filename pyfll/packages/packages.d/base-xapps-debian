@@ -6,7 +6,7 @@ packages = """
     #copyq # https://github.com/siduction/pyfll/issues/11
     dconf-editor
     feh
-    flameshot # https://github.com/siduction/pyfll/issues/8
+    #flameshot # https://github.com/siduction/pyfll/issues/8
     galternatives
     gvfs-fuse
     gvfs-backends
