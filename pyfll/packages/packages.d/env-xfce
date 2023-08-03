@@ -38,7 +38,7 @@ packages = """
        xfce4-mpc-plugin
        xfce4-panel-profiles
        xfce4-power-manager
-       xfce4-screenshooter- # we have shutter
+       # xfce4-screenshooter- # we have shutter
     # gtk3-engines-xfce dead and gone from sid
        xfce4-terminal
 
