@@ -24,5 +24,5 @@ packages = """
     evince
     mirage
     diodon
-    l3afpad
+    leafpad
 """
