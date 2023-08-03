@@ -58,5 +58,5 @@ packages = """
     # Qt5 Packages
     # screengrab  we have flameshot
     # smplayer - replaced by celluloid
-    vokoscreen-ng
+    # vokoscreen-ng
 """
