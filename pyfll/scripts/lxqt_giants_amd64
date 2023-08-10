@@ -1,0 +1,2 @@
+time ./pyfll/fll -vv -c /etc/pyfll/conf/lxqt_giants_amd64.conf
+

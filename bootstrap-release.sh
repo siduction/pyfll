@@ -2,11 +2,11 @@
 
 set -e
 
-CODENAME="Wintersky"
-CODENAME_SAFE="wintersky"
+CODENAME="Standing_on_the_Shoulders_of_Giants"
+CODENAME_SAFE="giants"
 FLAVOURS="cinnamon gnome kde lxde lxqt mate nox xfce xorg"
-RELEASE="wintersky"
-VERSION="21.3.0"
+RELEASE="giants"
+VERSION="23.1.0"
 
 
 cd pyfll/templates
