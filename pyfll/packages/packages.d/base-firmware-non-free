@@ -10,7 +10,7 @@ packages = """
     # Wired and Wireless
     b43-fwcutter
     #broadcom-sta-dkms
-    firmware-atheros
+    firmware-ath9k-htc
     firmware-b43-installer
     firmware-b43legacy-installer
     firmware-bnx2
