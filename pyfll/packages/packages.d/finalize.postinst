@@ -51,7 +51,7 @@ do_postinst() {
             xdg-utils \
             xdg-user-dirs
 
-        if [ "$FLAVOUR" != nox ]; then
+        if [ "$FLAVOUR" = kde ]; then
 	    apt-get install --no-install-recommends --assume-yes sddm-theme-siduction-breeze-$CODENAME_SAFE
 	fi
     fi
