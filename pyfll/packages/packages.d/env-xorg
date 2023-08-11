@@ -8,7 +8,7 @@ packages = """
     blueman
     configure-cups
     fluxbox
-    gconf2
+    # gconf2 # nicht verfügbar
     gnome-icon-theme
     hexchat
     pavucontrol
