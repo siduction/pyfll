@@ -50,6 +50,10 @@ do_postinst() {
             reportbug \
             xdg-utils \
             xdg-user-dirs
+
+        if [ "$FLAVOUR" != nox ]; then
+	    apt-get --no-install-recommends --assume-yes sddm-theme-siduction-breeze-$CODENAME_SAFE
+	fi
     fi
 
     LIVE_SETTINGS='none'
