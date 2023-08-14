@@ -25,4 +25,5 @@ packages = """
     mirage
     diodon
     l3afpad
+    flameshot # we also need here a screenshot tool
 """
