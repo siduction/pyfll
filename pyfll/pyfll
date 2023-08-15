@@ -356,10 +356,10 @@ class FLLBuilder(object):
             stamp += ' - %s' % self.conf['packages']['profile']
         else:
             if d.get('FLL_DISTRO_CODENAME_REV'):
-                stamp += ' - %s' % d['FLL_DISTRO_CODENAME']
+                stamp += ' - %s' % d['FLL_DISTRO_CODENAME_SAFE']
                 stamp += ' %s -' % d['FLL_DISTRO_CODENAME_REV']
             else:
-                stamp += ' %s -' % d['FLL_DISTRO_CODENAME']
+                stamp += ' %s -' % d['FLL_DISTRO_CODENAME_SAFE']
 
             stamp += ' %s' % self.conf['packages']['profile']
 
