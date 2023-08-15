@@ -1334,7 +1334,7 @@ class FLLBuilder(object):
         chroot = os.path.join(self.temp, arch)
 
         distro_version = '%s-version' % \
-                         self.conf['distro']['FLL_DISTRO_NAME'].lower()
+                         self.conf['distro']['FLL_DISTRO_NAME_SAFE'].lower()
         distro_version = os.path.join(chroot, 'etc', distro_version)
 
         self.log.debug('stamping distro version: %s' % distro_version)
