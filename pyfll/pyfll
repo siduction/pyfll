@@ -1298,7 +1298,7 @@ class FLLBuilder(object):
             elif file == '/tmp/fll-data':
                 f.write('DISTRO="%s"\n' % (self.conf['distro']['FLL_DISTRO_NAME']))
                 f.write('FLAVOUR="%s"\n' % (self.conf['distro']['FLL_FLAVOUR']))
-                f.write('CODENAME="%s"\n' % (self.conf['distro']['FLL_DISTRO_CODENAME']))
+                f.write('CODENAME="%s"\n' % (self.conf['distro']['FLL_DISTRO_CODENAME_SAFE']))
                 f.write('CODENAME_SAFE="%s"\n' % (self.conf['distro']['FLL_DISTRO_CODENAME_SAFE']))
         except IOError:
             self.log.exception('failed to open file for writing: %s' % file)
@@ -1334,7 +1334,7 @@ class FLLBuilder(object):
         chroot = os.path.join(self.temp, arch)
 
         distro_version = '%s-version' % \
-                         self.conf['distro']['FLL_DISTRO_NAME_SAFE'].lower()
+                         self.conf['distro']['FLL_DISTRO_NAME'].lower()
         distro_version = os.path.join(chroot, 'etc', distro_version)
 
         self.log.debug('stamping distro version: %s' % distro_version)
