@@ -14,7 +14,6 @@ packages = """
 #    orca-                # breaks all builds
     plymouth-
     plymouth-label-
-    sddm-theme-debian-breeze-
     speech-dispatcher-   # breaks all builds
     unattended-upgrades-
     xdm-

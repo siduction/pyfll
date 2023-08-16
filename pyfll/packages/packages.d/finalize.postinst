@@ -56,6 +56,8 @@ do_postinst() {
 	fi
     fi
 
+    apt-get --assume-yes purge sddm-theme-debian-breeze
+
     LIVE_SETTINGS='none'
     if [ -f /usr/bin/livesettings ]; then
         say "Configure Live Settings ... (current livesettings scripts)"
