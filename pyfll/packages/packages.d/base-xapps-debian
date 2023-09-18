@@ -10,7 +10,7 @@ packages = """
     galternatives
     gvfs-fuse
     gvfs-backends
-    ghostscript-x
+    ghostscript
     sane          
     sane-utils
     shared-mime-info
