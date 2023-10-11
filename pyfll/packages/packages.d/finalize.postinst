@@ -57,7 +57,7 @@ do_postinst() {
     fi
 
     apt-get --assume-yes purge sddm-theme-debian-breeze
-    apr-get --assume-yes  install nvidia-driver
+    apt-get --assume-yes  install nvidia-driver
 
     LIVE_SETTINGS='none'
     if [ -f /usr/bin/livesettings ]; then
