@@ -47,4 +47,5 @@ packages = """
     smplayer                     # ca   7 M
     vokoscreen-ng                # ca 1.5 M
     yakuake                      # ca 400 K
+    plasma-welcome-
 """
