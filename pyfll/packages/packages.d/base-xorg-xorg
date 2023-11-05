@@ -17,7 +17,6 @@ packages = """
     x11-xfs-utils
     xautomation
     xbindkeys
-    xbindkeys-config
     xinput
     xorg
 
