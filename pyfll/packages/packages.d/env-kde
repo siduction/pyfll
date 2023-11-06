@@ -48,4 +48,5 @@ packages = """
     vokoscreen-ng                # ca 1.5 M
     yakuake                      # ca 400 K
     plasma-welcome-
+    print-manager
 """
