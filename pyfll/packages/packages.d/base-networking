@@ -27,6 +27,7 @@ packages = """
     wpasupplicant
     wvdial
     iwd
+    systemd-resolved # IWD wants it
 
     #irc
     irssi
