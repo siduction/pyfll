@@ -9,7 +9,8 @@ packages = """
     iproute2
     iptables
     iputils-ping
-    isc-dhcp-client
+    # isc-dhcp-client # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1055067
+    ## with iwd, there is no need for it, iwd comes with it own dhcp client
     iw
     libnss-mdns
     libnss-myhostname
