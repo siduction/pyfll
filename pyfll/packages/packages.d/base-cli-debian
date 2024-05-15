@@ -19,7 +19,7 @@ packages = """
     dbus-user-session     # überdenken
     dconf-cli
     debconf-utils
-    deborphan
+    # deborphan #removed from unstable
     dialog
     gdu
     libmtp-runtime
