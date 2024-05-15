@@ -18,6 +18,7 @@ packages = """
     unattended-upgrades-
     xdm-
     clipit- #deprecated
+    thin-provisioning-tools-
 """
 
 i386 = """
