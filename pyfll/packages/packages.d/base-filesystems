@@ -30,7 +30,7 @@ packages = """
 
     # Manager 
     lvm2
-    thin-provisioning-tools
+    #thin-provisioning-tools
     mdadm # recommends default-mta kmod
 """
 
