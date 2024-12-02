@@ -11,7 +11,7 @@ packages = """
     apt-conf-siduction
     #pywwetha  #not installable, 21.8.20
     setpassword
-    siduction-btrfs
+    #siduction-btrfs
     siduction-scripts
     siduction-archive-keyring
     #sidu-manual #py2.x meckert

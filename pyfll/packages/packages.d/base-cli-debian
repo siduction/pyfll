@@ -65,7 +65,7 @@ packages = """
 
     # utils (must have)
     #cfv           # problem with py2.7.2, no inst. cand. # checksums and co.
-    cpufrequtils  #
+    #cpufrequtils  # does not exist anymore
     gpm           # mouse for console
     htop          # ncurses top
     iotop         # i/o top

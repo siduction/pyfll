@@ -49,11 +49,18 @@ do_postinst() {
             popularity-contest \
             reportbug \
             xdg-utils \
-            xdg-user-dirs
+            xdg-user-dirs \
+
+        echo "deb https://packages.siduction.org/etxtra unstable-updates main" > /etc/apt/sources.list.d/btrfs.list
+        mkdir -p /usr/share/siduction/btrfs-packages
+        apt-get uodate
+        apt-get download siduction-btrfs && mv *.deb /usr/share/siduction/btrfs-packages/
+        rm -f /etc/apt/sources.list.d/btrfs.list
+        apt-get update
 
         if [ "$FLAVOUR" = kde ]; then
-	    apt-get install --no-install-recommends --assume-yes sddm-theme-siduction-breeze-$CODENAME_SAFE
-	fi
+            apt-get install --no-install-recommends --assume-yes sddm-theme-siduction-breeze-$CODENAME_SAFE
+        fi
     fi
 
     apt-get --assume-yes purge sddm-theme-debian-breeze
@@ -79,7 +86,7 @@ do_postinst() {
         echo "Someone changed the tmp.mount descision in debian!"
         echo "One should consider to change pyfll that way!     "
         echo "**************************************************"
-     fi
+    fi
 }
 
 case "${1}" in

@@ -1,1 +1,1 @@
-time ./pyfll/fll -vv -c /etc/pyfll/conf/kde_giants_amd64.conf
+time ./pyfll/fll -vv -c pyfll/conf/kde_giants_amd64.conf
