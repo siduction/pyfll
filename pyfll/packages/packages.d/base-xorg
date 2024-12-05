@@ -6,6 +6,12 @@ desc = """
 packages = """
     calamares-branding-siduction
 
+    # we need qt6 svg support for sddm
+    libqt6svg6
+    libqt6svgwidgets6
+    libqt6widgets6
+    #####
+
     scrot # https://github.com/siduction/pyfll/issues/8
     fontconfig
     fontconfig-config
