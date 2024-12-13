@@ -10,6 +10,7 @@ packages = """
     libqt6svg6
     libqt6svgwidgets6
     libqt6widgets6
+    qt6-svg-plugins
     #####
 
     scrot # https://github.com/siduction/pyfll/issues/8
