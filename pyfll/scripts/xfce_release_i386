@@ -1,2 +1,2 @@
-time ./pyfll/fll -vv -c /etc/pyfll/conf/xfce_mow_i386.conf
+time ./pyfll/fll -vv -c ./pyfll/conf/xfce_mow_i386.conf
 

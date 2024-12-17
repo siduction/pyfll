@@ -1,0 +1,2 @@
+time ./pyfll/fll -vv -c ./pyfll/conf/lxqt_shine-on_amd64.conf
+

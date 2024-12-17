@@ -2,16 +2,16 @@
 
 set -e
 
-CODENAME="Standing_on_the_Shoulders_of_Giants"
-CODENAME_SAFE="giants"
-FLAVOURS="cinnamon gnome kde lxde lxqt mate nox xfce xorg"
-RELEASE="giants"
-VERSION="2023.1.0"
+CODENAME="Shine on ..."
+CODENAME_SAFE="shine-on"
+FLAVOURS="kde lxqt nox xfce xorg"
+RELEASE="shine-on"
+VERSION="2024.1.0"
 
 
 cd pyfll/templates
 for FLAVOUR in ${FLAVOURS};  do
-    for ARCH  in amd64 i386; do
+    for ARCH  in amd64; do
         case $ARCH in
             "amd64") KERNEL="amd64"
             ;;

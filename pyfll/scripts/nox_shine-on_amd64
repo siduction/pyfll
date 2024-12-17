@@ -1,0 +1,1 @@
+time ./pyfll/fll -vv -c ./pyfll/conf/nox_shine-on_amd64.conf

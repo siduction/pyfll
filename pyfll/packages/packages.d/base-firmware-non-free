@@ -25,4 +25,5 @@ packages = """
     firmware-realtek
     firmware-ti-connectivity
     firmware-zd1211
+    firmware-sof-signed
 """

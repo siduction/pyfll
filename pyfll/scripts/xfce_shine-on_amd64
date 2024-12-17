@@ -1,0 +1,2 @@
+time ./pyfll/fll -vv -c ./pyfll/conf/xfce_shine-on_amd64.conf
+

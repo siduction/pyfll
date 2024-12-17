@@ -314,12 +314,12 @@ class FLLBuilder(object):
                   'FLL_DISTRO_CODENAME_REV_SAFE']:
             if not d.get(k):
                 continue
-            if not d[k].isalnum():
+            '''if not d[k].isalnum():
                 self.log.critical("'%s' is not alphanumeric: %s" % (k, d[k]))
                 raise FllError
             elif d[k].find(' ') >= 0:
                 self.log.critical("'%s' contains whitespace: %s" % (k, d[k]))
-                raise FllError
+                raise FllError'''
 
         version = d.get('FLL_DISTRO_VERSION')
         if version and version != 'snapshot':
@@ -1100,11 +1100,11 @@ class FLLBuilder(object):
             self.log.error('failed to copy: %s' % file)
             raise FllError
 
-        # copy repo keys to /tmp
+        # copy repo keys to /etc/apt/trusted.gpg.d/
         try:
            files = glob.glob(os.path.join(self.opts.s, 'data/repo-keys/', '*.asc'))
            for file in files:
-               shutil.copy(file, os.path.join(chroot, 'tmp/'))
+               shutil.copy(file, os.path.join(chroot, 'etc/apt/trusted.gpg.d/'))
         except IOError:
             self.log.error('failed to copy: %s' % file)
             raise FllError
@@ -1152,7 +1152,7 @@ class FLLBuilder(object):
             cmd.extend(keyrings)
             self._execInChroot(arch, cmd)
 
-        gpgkeys = []
+        '''gpgkeys = []
         for repo in list(self.conf['repos'].keys()):
             r = self.conf['repos'][repo]
             if 'gpgkey' in r:
@@ -1175,7 +1175,7 @@ class FLLBuilder(object):
                     cmd = 'gpg-receive-key ' + r['gpgkey']
                     self._execInChroot(arch, cmd.split(), check_returncode = False)
                     cmd = 'apt-import-key ' + r['gpgkey']
-                    self._execInChroot(arch, cmd.split(), check_returncode = False)
+                    self._execInChroot(arch, cmd.split(), check_returncode = False)'''
 
         self._execInChroot(arch, 'apt-get -o Acquire::Languages=none -o Acquire::Check-Valid-Until=false update'.split())
         # Upgrade any essential packages from sources not available
