@@ -4,6 +4,7 @@ desc = """
 
 deps = """
     blacklist
+    blacklist-lxqt
 
     base-cli-debian
     base-cli-distro

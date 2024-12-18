@@ -57,10 +57,6 @@ do_postinst() {
         apt-get download siduction-btrfs && mv *.deb /usr/share/siduction/btrfs-packages/
         rm -f /etc/apt/sources.list.d/btrfs.list
         apt-get update
-
-        if [ "$FLAVOUR" = kde ]; then
-            apt-get install --no-install-recommends --assume-yes sddm-theme-siduction-breeze-$CODENAME_SAFE
-        fi
     fi
 
     apt-get --assume-yes purge sddm-theme-debian-breeze

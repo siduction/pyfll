@@ -1,0 +1,13 @@
+desc = """
+    Blacklist some packages
+"""
+
+packages = """
+    plasma-desktop-
+    plasma-workspace-
+    sddm-theme-breeze-
+"""
+
+i386 = """
+    grub-efi-ia32-signed-  # we have no usecase for
+"""
