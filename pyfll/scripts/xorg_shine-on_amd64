@@ -1,1 +1,3 @@
+flavour=xorg
+rm -f /srv/iso-build/"$flavour"/siduction*"
 time ./pyfll/fll -vv -c ./pyfll/conf/xorg_shine-on_amd64.conf
