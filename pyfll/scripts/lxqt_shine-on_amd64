@@ -1,4 +1,4 @@
 flavour=lxqt
-sudo rm -f /srv/iso-build/"$flavour"/siduction*
+sudo /bin/rm -f /srv/iso-build/"$flavour"/siduction*
 time ./pyfll/fll -vv -c ./pyfll/conf/lxqt_shine-on_amd64.conf
 
