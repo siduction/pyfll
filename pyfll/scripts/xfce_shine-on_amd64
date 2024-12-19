@@ -1,4 +1,4 @@
 flavour=xfce
-rm -f /srv/iso-build/"$flavour"/siduction*
+sudo rm -f /srv/iso-build/"$flavour"/siduction*
 time ./pyfll/fll -vv -c ./pyfll/conf/xfce_shine-on_amd64.conf
 
