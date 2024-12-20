@@ -11,6 +11,7 @@ packages = """
     gvfs-fuse
     gvfs-backends
     ghostscript
+    gparted
     sane          
     sane-utils
     shared-mime-info
