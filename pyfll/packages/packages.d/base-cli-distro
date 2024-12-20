@@ -16,7 +16,6 @@ packages = """
     siduction-archive-keyring
     #sidu-manual #py2.x meckert
     sshactivate
-    snapper
     # install without recommends   cli-installer
     # install without recommends   kernel-remover
     # install without recommends   siduction-irc
