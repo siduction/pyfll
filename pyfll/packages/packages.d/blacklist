@@ -19,7 +19,6 @@ packages = """
     xdm-
     clipit- #deprecated
     thin-provisioning-tools-
-    synaptic-
 """
 
 i386 = """
