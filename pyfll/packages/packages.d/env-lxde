@@ -26,7 +26,6 @@ packages = """
     mousepad
     network-manager-gnome
     pavucontrol
-    qtxdg-tools
     xfburn
     xfce4-power-manager
     xscreensaver

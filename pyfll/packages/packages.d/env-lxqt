@@ -43,6 +43,7 @@ packages = """
     qt5-style-plugins
     qterminal-l10n
     qtwayland5
+    qtxdg-tools
 
     # lxqt-xfwm-helper
 
