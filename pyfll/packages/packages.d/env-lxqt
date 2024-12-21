@@ -7,7 +7,6 @@ packages = """
     cmst
     connman
     # iwd   # not needed, sourced from base-networking
-    sddm
     lxqt
     # fulfilling the branding alternative with an empty metapackage
     lxqt-branding-siduction
