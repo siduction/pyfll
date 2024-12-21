@@ -15,6 +15,7 @@ do_postinst() {
     fi
 
     systemctl mask NetworkManager-wait-online.service
+    rm -f /usr/share/wayland-sessions/xfce-wayland.desktop
 }
 
 case "${1}" in
