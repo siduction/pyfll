@@ -3,6 +3,7 @@ esc = """
 """
 
 packages = """
+    sddm
     #networking
     cmst
     connman
