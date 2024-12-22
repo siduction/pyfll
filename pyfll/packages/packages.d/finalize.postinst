@@ -60,7 +60,7 @@ do_postinst() {
         apt-get update
     fi
 
-    apt-get --assume-yes purge sddm-theme-debian-breeze
+    apt-get --assume-yes purge sddm-theme-debian-breeze wdm
 
     LIVE_SETTINGS='none'
     if [ -f /usr/bin/livesettings ]; then
