@@ -12,6 +12,7 @@ do_postinst()
         rm -f /etc/xdg/menus/debian-menu.menu
     fi
     systemctl mask connman-wait-online.service
+    apt-get --assume-yes purge systemsettings --auto-remove
 }
 
 
