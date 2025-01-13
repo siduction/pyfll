@@ -13,7 +13,7 @@ packages = """
     gstreamer1.0-tools
     gstreamer1.0-x
 
-    libavcodec60
+    libavcodec61
     libcanberra-gstreamer
     libcanberra-pulse
     libfftw3-bin
