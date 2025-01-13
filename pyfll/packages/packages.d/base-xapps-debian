@@ -12,11 +12,11 @@ packages = """
     gvfs-backends
     ghostscript
     gparted
-    sane          
-    sane-utils
+    #sane		not installable
+    #sane-utils		not installable
     shared-mime-info
     synaptic
-    xsane         
+    #xsane         	not installable
     zenity
     zim
 """
