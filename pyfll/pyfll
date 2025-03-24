@@ -799,7 +799,7 @@ class FLLBuilder(object):
 
     def _mount(self, chroot):
         '''Mount virtual filesystems in a chroot.'''
-        virtfs = {'devpts': 'dev/pts', 'proc': 'proc'}
+        virtfs = {'devpts': 'dev/pts', 'proc': 'proc', 'sysfs': 'sys'}
 
         for v in list(virtfs.items()):
             cmd = ['mount', '-t', v[0], 'fll-' + v[0],
