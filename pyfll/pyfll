@@ -1290,7 +1290,7 @@ class FLLBuilder(object):
                 f.write('%s ALL=(ALL:ALL) NOPASSWD: ALL\n' % liveuser )
             elif file == '/usr/sbin/policy-rc.d':
                 f.write('#!/bin/sh\n')
-                f.write(r'echo "$0 denied action: \`$1 $2\'" >&2\n')
+                f.write('echo "$0 denied action: $1 $2" >&2\n')
                 f.write('exit 101\n')
             elif file == '/tmp/iso_uuid':
                 f.write(self.uuid)
