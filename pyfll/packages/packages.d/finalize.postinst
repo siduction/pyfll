@@ -51,7 +51,7 @@ do_postinst() {
             xdg-utils \
             xdg-user-dirs \
 
-        echo "deb https://packages.siduction.org/etxtra unstable-updates main" > /etc/apt/sources.list.d/btrfs.list
+        echo "deb https://packages.siduction.org/extra unstable-updates main" > /etc/apt/sources.list.d/btrfs.list
         mkdir -p /usr/share/siduction/btrfs-packages
         apt-get update
         apt-get -y --print-uris --no-install-recommends install  siduction-btrfs snapper snapper-gui | awk '{print $1}' | grep ^\' | sed "s/^'//;s/'$//" | xargs -n 1 wget -P /usr/share/siduction/btrfs-packages/
