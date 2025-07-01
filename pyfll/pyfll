@@ -2459,7 +2459,7 @@ class FLLBuilder(object):
 #        self.writeMd5Sums()
         self.genLiveMedia()
 
-        duration = (datetime.datetime.now(datetime.UTC) - self.time).total_seconds()
+        duration = datetime.datetime.now(datetime.UTC) - self.time
         self.log.info('build duration was %d minutes and %d seconds' %
                       divmod(duration.seconds, 60))
 
