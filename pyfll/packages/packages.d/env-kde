@@ -11,7 +11,7 @@ packages = """
     #digikam                      # ca 130 M
     flameshot
     kde-config-gtk-style-preview  # ca  10 K
-    kde-config-systemd            # ca 200 K
+    # kde-config-systemd            # gibts nicht mehr
     kdeadmin                      # ca   2 M
     kdegraphics                   # ca   2 M
     kdemultimedia                 # ca   1 M
