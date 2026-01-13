@@ -36,12 +36,12 @@ packages = """
     qpdfview-ps-plugin
     qpdfview-translations
     qt5-gtk-platformtheme
-    qt5-gtk2-platformtheme
+    #qt5-gtk2-platformtheme
     qt5-image-formats-plugins
-    qt5-style-plugin-cleanlooks
-    qt5-style-plugin-motif
-    qt5-style-plugin-plastique
-    qt5-style-plugins
+    #qt5-style-plugin-cleanlooks
+    #qt5-style-plugin-motif
+    #qt5-style-plugin-plastique
+    #qt5-style-plugins
     qterminal-l10n
     qtwayland5
     qtxdg-tools
