@@ -24,6 +24,7 @@ packages = """
     mate-calc
     mousepad
     network-manager-gnome
+    notification-daemon
     orage
     pavucontrol
     system-config-printer

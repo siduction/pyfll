@@ -4,6 +4,15 @@ desc = """
 
 packages = """
     systemsettings-
+    gnome-shell-
+    gnome-session-common-
+    gnome-settings-daemon-
+    gnome-flashback-
+    gnome-sushi-
+    cinnamon-
+    gdm3-
+    mutter-common-
+    nautilus-
 """
 
 i386 = """
