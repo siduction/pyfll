@@ -15,7 +15,8 @@ packages = """
     gcolor3
     gimp
     gparted
-    hexchat
+    # hexchat # it is dead baby
+    zoitechat # gtk3 replacement for hexchat
     inkscape
         # libreoffice-help-en-us
         # mythes-en-us
