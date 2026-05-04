@@ -10,7 +10,8 @@ packages = """
     fluxbox
     # gconf2 # nicht verfügbar
     gnome-icon-theme
-    hexchat
+    # hexchat # it is dead baby
+    zoitechat # gtk3 fork of hexchat
     pavucontrol
     pasystray
     spacefm-gtk3
