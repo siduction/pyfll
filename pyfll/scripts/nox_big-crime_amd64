@@ -1,0 +1,3 @@
+flavour=nox
+sudo /bin/rm -f /srv/iso-build/"$flavour"/siduction*
+time ./pyfll/fll -vv -c ./pyfll/conf/nox_big-crime_amd64.conf
