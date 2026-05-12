@@ -26,9 +26,11 @@ packages = """
     lxqt-runner-l10n
     lxqt-session-l10n
     lxqt-sudo-l10n
+    lxqt-wayland-session # wayland support
     feathernotes
     feathernotes-l10n
     featherpad-l10n
+    swaylock # needed for the wayland-session
 
     qpdfview
     qpdfview-djvu-plugin
@@ -50,6 +52,7 @@ packages = """
 
     phonon4qt5-backend-gstreamer
     xfwm4-theme-breeze
+
 
     system-config-printer
     xfburn
