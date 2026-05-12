@@ -37,9 +37,11 @@ packages = """
     qpdfview-pdf-poppler-plugin
     qpdfview-ps-plugin
     qpdfview-translations
-    qt5-gtk-platformtheme
+    #qt5-gtk-platformtheme
+    qt6-gtk-platformtheme
     #qt5-gtk2-platformtheme
-    qt5-image-formats-plugins
+    #qt5-image-formats-plugins
+    qt6-image-formats-plugins
     #qt5-style-plugin-cleanlooks
     #qt5-style-plugin-motif
     #qt5-style-plugin-plastique
@@ -51,13 +53,14 @@ packages = """
     # lxqt-xfwm-helper
 
     phonon4qt5-backend-gstreamer
+
     xfwm4-theme-breeze
 
 
     system-config-printer
     xfburn
 
-    ## gtk2
+    ## gtk2 / gtk3
     hardinfo
     # hexchat # it is dead baby
     zoitechat # gtk3 fork of hexchat
@@ -71,9 +74,10 @@ packages = """
     libreoffice
     libreoffice-gtk3
 
-    ## Qt 5
+    ## Qt 5 / QT 6
     2048-qt
-    adwaita-qt              # integrate this into settings
+    # adwaita-qt              # integrate this into settings
+    adwaita-qt6
     nomacs
     qbittorrent
     partitionmanager
