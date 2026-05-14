@@ -26,5 +26,6 @@ deps = """
 """
 
 packages = """
-
+    lightdm-
+    lightdm-gtk-greeter-
 """

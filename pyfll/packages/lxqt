@@ -31,4 +31,6 @@ deps = """
 
 packages = """
     systemsettings-
+    lightdm-
+    lightdm-gtk-greeter-
 """
