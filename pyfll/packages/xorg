@@ -32,5 +32,7 @@ packages = """
 
 ## needed for nm-applet
     network-manager-gnome
-
+    sddm-
+    lightdm
+    lightdm-gtk-greeter
 """
