@@ -10,7 +10,6 @@ packages = """
     fbset
     # daemons
     haveged
-    preload
     # broken post-inst    ssmtp                 # some mtp - suck less than exim
     # ssmtp
     #esmtp
