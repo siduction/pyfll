@@ -40,7 +40,6 @@ packages = """
     network-manager-openvpn
     network-manager-pptp
     network-manager-vpnc
-    phonon4qt5-backend-gstreamer # ca 110 K
     pinentry-qt                  # ca  70 K
     plasma-systemmonitor
     plasma-discover-backend-flatpak
