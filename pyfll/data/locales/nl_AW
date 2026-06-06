@@ -3,11 +3,11 @@ bootlang="lang=nl_AW"
 def_bootlang="nl_AW"
 if [ -z "${keyboard}" ]; then
   def_keyboard="us"
-  keyboard="us"
+  keyboard="keytable=us"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="America/Aruba"
-  timezone="America/Aruba"
+  timezone="tz=America/Aruba"
 fi
 export def_bootlang
 export bootlang

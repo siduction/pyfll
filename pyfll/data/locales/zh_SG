@@ -3,11 +3,11 @@ bootlang="lang=zh_SG"
 def_bootlang="zh_SG"
 if [ -z "${keyboard}" ]; then
   def_keyboard="us"
-  keyboard="us"
+  keyboard="keytable=us"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Asia/Singapore"
-  timezone="Asia/Singapore"
+  timezone="tz=Asia/Singapore"
 fi
 export def_bootlang
 export bootlang

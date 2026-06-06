@@ -3,11 +3,11 @@ bootlang="lang=es_VE"
 def_bootlang="es_VE"
 if [ -z "${keyboard}" ]; then
   def_keyboard="latam"
-  keyboard="latam"
+  keyboard="keytable=latam"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="America/Caracas"
-  timezone="America/Caracas"
+  timezone="tz=America/Caracas"
 fi
 export def_bootlang
 export bootlang

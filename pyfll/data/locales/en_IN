@@ -3,11 +3,11 @@ bootlang="lang=en_IN"
 def_bootlang="en_IN"
 if [ -z "${keyboard}" ]; then
   def_keyboard="us"
-  keyboard="us"
+  keyboard="keytable=us"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Asia/Kolkata"
-  timezone="Asia/Kolkata"
+  timezone="tz=Asia/Kolkata"
 fi
 export def_bootlang
 export bootlang
