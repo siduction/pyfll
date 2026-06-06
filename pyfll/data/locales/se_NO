@@ -3,7 +3,15 @@ bootlang="lang=se_NO"
 def_bootlang="se_NO"
 if [ -z "${keyboard}" ]; then
   def_keyboard="no"
+  keyboard="no"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Europe/Oslo"
+  timezone="Europe/Oslo"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

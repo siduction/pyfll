@@ -3,7 +3,15 @@ bootlang="lang=el_GR"
 def_bootlang="el_GR"
 if [ -z "${keyboard}" ]; then
   def_keyboard="gr"
+  keyboard="gr"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Europe/Athens"
+  timezone="Europe/Athens"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

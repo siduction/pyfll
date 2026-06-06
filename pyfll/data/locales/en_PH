@@ -3,7 +3,15 @@ bootlang="lang=en_PH"
 def_bootlang="en_PH"
 if [ -z "${keyboard}" ]; then
   def_keyboard="us"
+  keyboard="us"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Asia/Manila"
+  timezone="Asia/Manila"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

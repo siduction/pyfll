@@ -3,7 +3,15 @@ bootlang="lang=zh_HK"
 def_bootlang="zh_HK"
 if [ -z "${keyboard}" ]; then
   def_keyboard="us"
+  keyboard="us"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Asia/Hong_Kong"
+  timezone="Asia/Hong_Kong"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

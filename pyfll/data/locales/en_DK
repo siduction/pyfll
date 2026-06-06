@@ -3,7 +3,15 @@ bootlang="lang=en_DK"
 def_bootlang="en_DK"
 if [ -z "${keyboard}" ]; then
   def_keyboard="dk"
+  keyboard="dk"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Europe/Copenhagen"
+  timezone="Europe/Copenhagen"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

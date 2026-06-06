@@ -3,7 +3,15 @@ bootlang="lang=uk_UA"
 def_bootlang="uk_UA"
 if [ -z "${keyboard}" ]; then
   def_keyboard="ua"
+  keyboard="ua"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Europe/Kiev"
+  timezone="Europe/Kiev"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

@@ -3,7 +3,15 @@ bootlang="lang=ga_IE"
 def_bootlang="ga_IE"
 if [ -z "${keyboard}" ]; then
   def_keyboard="ie"
+  keyboard="ie"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Europe/Dublin"
+  timezone="Europe/Dublin"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

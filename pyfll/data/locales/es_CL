@@ -3,7 +3,15 @@ bootlang="lang=es_CL"
 def_bootlang="es_CL"
 if [ -z "${keyboard}" ]; then
   def_keyboard="latam"
+  keyboard="latam"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="America/Santiago"
+  timezone="America/Santiago"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

@@ -3,7 +3,15 @@ bootlang="lang=ko_KR"
 def_bootlang="ko_KR"
 if [ -z "${keyboard}" ]; then
   def_keyboard="kr"
+  keyboard="kr"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Asia/Seoul"
+  timezone="Asia/Seoul"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone

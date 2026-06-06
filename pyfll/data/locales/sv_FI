@@ -3,7 +3,15 @@ bootlang="lang=sv_FI"
 def_bootlang="sv_FI"
 if [ -z "${keyboard}" ]; then
   def_keyboard="se"
+  keyboard="se"
 fi
 if [ -z "${timezone}" ]; then
   def_timezone="Europe/Helsinki"
+  timezone="Europe/Helsinki"
 fi
+export def_bootlang
+export bootlang
+export def_keyboard
+export def_timezone
+export keyboard
+export timezone
