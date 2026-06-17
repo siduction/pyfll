@@ -2426,7 +2426,7 @@ class FLLBuilder(object):
         codename = self.opts.C
         for arch in archs:
             self._bootStrap(arch)
-            self._dpkgAddDivert(arch)
+            '''self._dpkgAddDivert(arch)'''
             self._defaultEtc(arch)
             self._distroDefaultEtc(arch)
             self._preseedDebconf(arch)
@@ -2435,7 +2435,7 @@ class FLLBuilder(object):
             self._postInst(arch)
             self._collectManifest(arch)
             self._finalEtc(arch)
-            self._dpkgUnDivert(arch)
+            '''self._dpkgUnDivert(arch)'''
             self._makeInitramfs(arch)
             self._cleanChroot(arch)
             self._chrootSquashfs(arch)

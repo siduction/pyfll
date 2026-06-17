@@ -6,7 +6,6 @@ packages = """
     doas
     fastfetch
     flatpak
-    grub-btrfs
     nala
     apt-conf-siduction
     #pywwetha  #not installable, 21.8.20

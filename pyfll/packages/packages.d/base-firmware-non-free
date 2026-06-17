@@ -18,6 +18,7 @@ packages = """
     firmware-bnx2x
     firmware-brcm80211
     firmware-iwlwifi
+    firmware-intel-graphics
     firmware-libertas
     firmware-myricom
     firmware-netxen

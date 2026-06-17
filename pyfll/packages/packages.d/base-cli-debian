@@ -75,7 +75,7 @@ packages = """
     nano          # the ultimative editor
     rsync         #
     vim-nox       # editor for people who think they are geeks
-    vrms          # virtual R. M. Stallman
+    # vrms          # virtual R. M. Stallman
 
 
     # misc
