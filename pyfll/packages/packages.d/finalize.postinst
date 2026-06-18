@@ -57,7 +57,7 @@ do_postinst() {
         apt-get -d --assume-yes --no-install-recommends install grub-btrfs siduction-btrfs snapper btrfs-assistant btrfsmaintenance
         mv /var/cache/apt/archives/*.deb /usr/share/siduction/btrfs-packages/
 	mkdir -p /usr/share/siduction/kernel
-	apt-get download $(pkg -l | awk '/x-image-7/{print $2}')
+	apt-get download $(dpkg -l | awk '/x-image-7/{print $2}')
 	mv linux-image*.deb /usr/share/siduction/kernel/
     fi
 
