@@ -21,6 +21,7 @@ packages = """
     firmware-intel-graphics
     firmware-libertas
     firmware-myricom
+    firmware-nvidia-graphics
     firmware-netxen
     firmware-qlogic
     firmware-realtek
