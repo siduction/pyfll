@@ -1,3 +1,0 @@
-Package: src:linux-siduction
-Pin: release a=siduction,n=experimental
-Pin-Priority: 1000
