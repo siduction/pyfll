@@ -51,14 +51,19 @@ do_postinst() {
             xdg-utils \
             xdg-user-dirs
 
+	# btrfs packages for later install
+	say "Install grub-btrfs"
+	apt-get -y install grub-btrfs
+	apt-get -y clean
+
+	say "Download and store btrfs packages"
         mkdir -p /usr/share/siduction/btrfs-packages
-        apt-get update
-        apt-get --assume-yes clean
-        apt-get -d --assume-yes --no-install-recommends install grub-btrfs siduction-btrfs snapper btrfs-assistant btrfsmaintenance
+        apt-get -d --assume-yes --no-install-recommends install siduction-btrfs snapper btrfs-assistant btrfsmaintenance
         mv /var/cache/apt/archives/*.deb /usr/share/siduction/btrfs-packages/
-	mkdir -p /usr/share/siduction/kernel
-	apt-get download $(dpkg -l | awk '/x-image-7/{print $2}')
-	mv linux-image*.deb /usr/share/siduction/kernel/
+
+#	mkdir -p /usr/share/siduction/kernel
+#	apt-get download $(dpkg -l | awk '/x-image-7/{print $2}')
+#	mv linux-image*.deb /usr/share/siduction/kernel/
     fi
 
 #    printf "\namdgpu\nnouveau\ni915\xe" >> /etc/initramfs-tools/modules
