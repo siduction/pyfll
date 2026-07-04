@@ -18,7 +18,6 @@ packages = """
     # hexchat # it is dead baby
     zoitechat # gtk3 replacement for hexchat
     zoitechat-plugins
-    zoitechat-dev # needed for the plugins to funktion right
     inkscape
         # libreoffice-help-en-us
         # mythes-en-us
