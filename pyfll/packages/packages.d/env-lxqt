@@ -62,7 +62,6 @@ packages = """
     # hexchat # it is dead baby
     zoitechat # gtk3 fork of hexchat
     zoitechat-plugins
-    zoitechat-dev # needed for the plugins to funktion right
     inkscape
     gimp
 
