@@ -28,7 +28,7 @@ packages = """
     firmware-netxen
     firmware-nvidia-graphics
     firmware-netxen
-    firmware-qcom-media
+    # firmware-qcom-media # doesn't exist anymore
     firmware-qlogic
     firmware-realtek
     firmware-siano
