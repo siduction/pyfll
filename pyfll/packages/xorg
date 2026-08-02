@@ -31,7 +31,7 @@ deps = """
 packages = """
 
 ## needed for nm-applet
-    network-manager-gnome
+    network-manager-applet
     sddm-
     lightdm
     lightdm-gtk-greeter

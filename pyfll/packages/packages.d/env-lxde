@@ -24,7 +24,7 @@ packages = """
         lxtask
 
     mousepad
-    network-manager-gnome
+    network-manager-applet
     pavucontrol
     xfburn
     xfce4-power-manager
