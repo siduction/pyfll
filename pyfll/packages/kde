@@ -9,6 +9,7 @@ deps = """
     base-devel
     base-filesystems
     base-firefox
+    base-thunderbird
     base-firmware-non-free
     base-hwsupport
     base-init
@@ -28,4 +29,5 @@ deps = """
 packages = """
     lightdm-
     lightdm-gtk-greeter-
+    konqueror-
 """
