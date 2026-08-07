@@ -4,12 +4,12 @@ desc = """
 
 packages = """
     dnsutils
+    dhcpcd-base
     ftp-ssl
     iftop
     iproute2
     iptables
     iputils-ping
-    isc-dhcp-client
     iw
     libnss-mdns
     libnss-myhostname
