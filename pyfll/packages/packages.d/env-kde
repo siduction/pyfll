@@ -6,6 +6,8 @@ packages = """
     copyq
     desktop-base-
     kde-standard
+    marknote
+    neochat
     adwaita-qt
     avahi-autoipd
     #digikam                      # ca 130 M
