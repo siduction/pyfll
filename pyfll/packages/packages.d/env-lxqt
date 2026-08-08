@@ -49,6 +49,7 @@ packages = """
     qterminal-l10n
     qtwayland5
     qtxdg-tools
+    nheko # Matrixclient
 
     # lxqt-xfwm-helper
 
