@@ -18,6 +18,7 @@ packages = """
     spacefm-gtk3
     network-manager
     jgmenu
+    lxpanel-data # needed for jgmenu
     idesk
     tint2
     termit
