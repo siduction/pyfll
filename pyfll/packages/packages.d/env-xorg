@@ -29,6 +29,6 @@ packages = """
     l3afpad
     flameshot # we also need here a screenshot tool
     system-config-printer # easy to use configuration-tool
-    grybird-gtk-theme   # needed for our lightdm-theme
+    greybird-gtk-theme   # needed for our lightdm-theme
     stylish-icon-theme  # also needed for our lightdm-theme
 """
