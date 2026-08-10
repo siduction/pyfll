@@ -18,7 +18,7 @@ packages = """
     spacefm-gtk3
     network-manager
     jgmenu
-    lxpanel-data # needed for jgmenu
+    # lxpanel-data # needed for jgmenu
     idesk
     tint2
     termit
@@ -31,5 +31,5 @@ packages = """
     flameshot # we also need here a screenshot tool
     system-config-printer # easy to use configuration-tool
     greybird-gtk-theme   # needed for our lightdm-theme
-    stylish-icon-theme  # also needed for our lightdm-theme
+    # stylish-icon-theme  # also needed for our lightdm-theme
 """
