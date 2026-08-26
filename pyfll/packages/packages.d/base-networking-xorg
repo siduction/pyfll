@@ -1,0 +1,38 @@
+desc = """
+    Basic networking support and utilities.
+"""
+
+packages = """
+    dhcpcd-base
+    dnsutils
+    ftp-ssl
+    iftop
+    iproute2
+    iptables
+    iputils-ping
+    ## with iwd, there is no need for it, iwd comes with it own dhcp client
+    iw
+    libnss-mdns
+    libnss-myhostname
+    lynx
+    netselect
+    nmap
+    netbase
+    net-tools
+    openssh-client
+    sshfs
+    traceroute
+    wget
+    wireless-regdb
+    wireless-tools
+    # wpasupplicant
+    wvdial
+    iwd
+    #systemd-resolved # IWD wants it
+
+    #irc
+    irssi
+    irssi-scripts
+    weechat
+    weechat-scripts
+"""
