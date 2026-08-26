@@ -17,6 +17,7 @@ packages = """
     pasystray
     spacefm-gtk3
     network-manager
+    network-manager-iwd
     jgmenu
     lxpanel-data # needed for jgmenu
     idesk
