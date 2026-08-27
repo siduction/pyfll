@@ -4,10 +4,9 @@ desc = """
 
 packages = """
     copyq
+    gnome-keyring- # no need for it
     desktop-base-
     kde-standard
-    marknote
-    neochat
     adwaita-qt
     avahi-autoipd
     #digikam                      # ca 130 M
@@ -38,8 +37,8 @@ packages = """
     libreoffice                   # ca 182 M
     libreoffice-plasma
     libreoffice-style-breeze
-    marknote			#wunsch von hhl
-    neochat			#wunsch von hhl
+    marknote		# wunsch von hhl
+    neochat			# wunsch von hhl
     network-manager-openconnect
     network-manager-openvpn
     network-manager-pptp
