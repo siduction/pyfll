@@ -47,7 +47,8 @@ packages = """
     #qt5-style-plugin-plastique
     #qt5-style-plugins
     qterminal-l10n
-    qtwayland5
+    # qtwayland5
+    qt6-wayland
     qtxdg-tools
     nheko # Matrixclient
 
