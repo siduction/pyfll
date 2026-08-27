@@ -20,6 +20,7 @@ packages = """
     network-manager-iwd
     jgmenu
     lxpanel-data # needed for jgmenu
+    lxmenu-data
     idesk
     tint2
     termit
