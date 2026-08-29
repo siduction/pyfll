@@ -5,9 +5,11 @@ esc = """
 packages = """
     sddm
     #networking
+    iwgtk
     cmst
     connman
-    # iwd   # not needed, sourced from base-networking
+    # iwd
+    # not needed, sourced from base-networking
     lxqt
     # fulfilling the branding alternative with an empty metapackage
     lxqt-branding-siduction
