@@ -4,6 +4,7 @@ desc = """
 
 packages = """
     plasma*-
+    wpasuplicant-
     lxpolkit # we need a polkit agent after instalation
     blueman
     configure-cups
@@ -20,7 +21,7 @@ packages = """
     network-manager-iwd
     jgmenu
     lxpanel-data # needed for jgmenu
-    lxmenu-data
+    lxmenu-data # needed for jgmenu
     idesk
     tint2
     termit
