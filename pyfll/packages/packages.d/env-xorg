@@ -15,15 +15,16 @@ packages = """
     zoitechat # gtk3 fork of hexchat
     zoitechat-plugins
     pavucontrol
-    pasystray
+    # pasystray
     spacefm-gtk3
     network-manager
     network-manager-iwd
-    jgmenu
+    # jgmenu
+    lxpanel # we need it till we have another panel
     lxpanel-data # needed for jgmenu
     lxmenu-data # needed for jgmenu
     idesk
-    tint2
+    # tint2
     termit
     gsimplecal
     xfce4-appfinder
@@ -35,4 +36,12 @@ packages = """
     system-config-printer # easy to use configuration-tool
     greybird-gtk-theme   # needed for our lightdm-theme
     stylish-icon-theme  # also needed for our lightdm-theme
+    ## office
+    libreoffice
+    libreoffice-gtk3
+    ## multimedia
+    audacious
+    mplayer-gui
+    mplayer-skin-blue
+    mplayer
 """
