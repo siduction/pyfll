@@ -41,7 +41,7 @@ packages = """
     libreoffice-gtk3
     ## multimedia
     audacious
-    mplayer-gui
-    mplayer-skin-blue
+    # mplayer-gui # gibts nicht mehr
+    # mplayer-skin-blue # gibts nicht mehr
     mplayer
 """
