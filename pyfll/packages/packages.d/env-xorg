@@ -42,6 +42,6 @@ packages = """
     ## multimedia
     audacious
     celluloid
-    mpv
-    mplayer
+    # mpv
+    # mplayer
 """
