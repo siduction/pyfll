@@ -23,6 +23,7 @@ packages = """
     firmware-intel-misc
     firmware-intel-sound
     firmware-libertas
+    firmware-mediatek
     firmware-misc-nonfree
     firmware-myricom
     firmware-netxen
