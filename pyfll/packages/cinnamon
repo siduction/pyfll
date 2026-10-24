@@ -4,14 +4,12 @@ desc = """
 
 deps = """
     blacklist
-    blacklist-xorg
-
     base-cli-debian
     base-cli-distro
-
     base-devel
     base-filesystems
     base-firefox
+    base-thunderbird
     base-firmware-non-free
     base-hwsupport
     base-init
@@ -21,11 +19,10 @@ deps = """
     base-printing
     base-virt-helpers
     base-security
-    base-thunderbird
     base-xapps-debian
+    base-xapps-distro
     base-xorg
     base-xorg-fonts
-
     env-cinnamon
 """
 
