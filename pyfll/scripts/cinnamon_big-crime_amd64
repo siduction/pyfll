@@ -1,0 +1,3 @@
+flavour=cinnamon
+sudo /bin/rm -f /srv/iso-build/"$flavour"/*Big_Crime*
+time ./pyfll/fll -vv -c pyfll/conf/cinnamon_big-crime_amd64.conf

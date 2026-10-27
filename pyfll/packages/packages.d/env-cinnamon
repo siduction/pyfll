@@ -7,12 +7,13 @@ desc = """
 # recommends on and cherrypick missed useful packages
 
 packages = """
-    cinnamon-desktop-environment
-    guake
-    liferea
-    nemo-gtkhash
-    p7zip-full
-    pavucontrol
-    sddm
-    vim-gtk3
+    cinnamon-core
+    terminator
+    neovim
+    gimp
+    inkscape
+    libreoffice
+    lightdm
+    lightdm-settings
+    slick-greeter
 """
