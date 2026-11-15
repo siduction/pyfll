@@ -10,10 +10,11 @@ packages = """
     cinnamon-core
     terminator
     neovim
-    gimp
+    gimp 
     inkscape
     libreoffice
     lightdm
     lightdm-settings
     slick-greeter
+    evince # we need a pdf-reader for the manual
 """
